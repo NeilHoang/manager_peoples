@@ -2,7 +2,7 @@
 
 @section('content')
     <form action="{{route('managers.search')}}" method="get">
-        @
+        @csrf
     <td><input type="text" name="search"></td>
     <td><input type="submit" class="btn btn-primary" value="Search"></td><br>
     <table class="table">
@@ -13,6 +13,7 @@
             <th scope="col">Name</th>
             <th scope="col">Phone</th>
             <th scope="col">Email</th>
+            <th scope="col">City</th>
             <th scope="col">Image</th>
         </tr>
         </thead>
@@ -23,6 +24,7 @@
             <td>{{$people->name}}</td>
             <td>{{$people->phone}}</td>
             <td>{{$people->email}}</td>
+{{--            <td>{{$people->city}}</td>--}}
                 <td><img src="{{asset('storage/'.$people->image)}}" width="60px" height="60px"></td>
             <td><a href="{{route('managers.edit',$people->id)}}" class="btn btn-light">EDIT</a></td>
             <td><a href="{{route('managers.delete',$people->id)}}" class="btn btn-light">DELETE</a></td>

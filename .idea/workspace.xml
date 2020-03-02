@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65e14b76-3d74-4fc2-8c11-4d9ea4dd7270" name="Default Changelist" comment="" />
+    <list default="true" id="65e14b76-3d74-4fc2-8c11-4d9ea4dd7270" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/region/city_information_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/region/create_city.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/City.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerPeopleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerPeopleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/People.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_28_041407_create_peoples_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_29_084242_add_collumn_image_to_peoples.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_29_092211_create_cities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_29_092338_add_cities_to_peoples_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CitiesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/peoples/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/peoples/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/peoples/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/peoples/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +31,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -105,10 +126,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1SohfGGgoDUhngkZX7DdeWoRz9e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../customer" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.0.1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/KT-MD2" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v13.0.1/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -146,11 +172,34 @@
       <workItem from="1572235958269" duration="13676000" />
       <workItem from="1572275460567" duration="550000" />
       <workItem from="1572311789748" duration="11566000" />
-      <workItem from="1572360499014" duration="221000" />
+      <workItem from="1572360499014" duration="6706000" />
+      <workItem from="1572397864193" duration="16222000" />
+      <workItem from="1572442581281" duration="1930000" />
+      <workItem from="1572482959788" duration="1955000" />
+      <workItem from="1572570506185" duration="72000" />
+      <workItem from="1572570724283" duration="3232000" />
+      <workItem from="1572595261017" duration="2705000" />
+      <workItem from="1572604884254" duration="232000" />
+      <workItem from="1572651716142" duration="68000" />
+      <workItem from="1572937857880" duration="947000" />
+      <workItem from="1573110441693" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

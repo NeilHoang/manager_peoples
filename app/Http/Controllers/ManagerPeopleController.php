@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\People;
+use App\City;
 //use Illuminate\Http\File;
+use App\People;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
@@ -56,7 +57,7 @@ class ManagerPeopleController extends Controller
     public function edit($id)
     {
         $peoples = $this->people->findOrFail($id);
-        return view('peoples.formEdit', compact('peoples'));
+        return view('peoples.formEdit', compact('peoples','citys'));
     }
     
     public function update(Request $request, $id)

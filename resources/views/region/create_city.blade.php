@@ -1,4 +1,4 @@
-@extends('cities.city_information_form')
+@extends('region.city_information_form')
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
@@ -6,7 +6,7 @@
                 <div class="card">
 {{--                    <div class="card-header">{{ __('Add city') }}</div>--}}
                     <div class="card-body">
-                        <form method="post" action="{{route('cities.store')}}" enctype="multipart/form-data">
+                        <form method="post" action="{{route('region')}}" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Enter City" name="name">

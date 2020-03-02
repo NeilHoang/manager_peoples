@@ -27,5 +27,4 @@
         <a href="{{route('managers.index')}}" class="btn btn-outline-dark">Back</a>
     </form>
     </body>
-
 @endsection
